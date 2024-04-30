@@ -1,0 +1,156 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(v.jpg); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.header{
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	padding: 2rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1.0);
+}
+.navbar{
+	text-align: center;
+	flex: 1;
+
+}
+.navbar a{
+	padding: 0 1.2rem;
+	text-decoration: none;
+	color: #666;
+	margin-left: 20px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.navbar a:hover{
+	color: var(--pink);
+
+}
+.btn{
+	cursor: pointer;
+	color: #ccOO52;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 10px 30px;
+	border: 2px solid #OO3333;
+	background: transparent;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold ;
+	margin: 40px 8px;
+}
+.btn:hover{
+	color: #OOO;
+	background-color: #fff;
+
+}
+.btn a:visited{
+	background-color: #fff;
+	color: #ccOO52;
+
+
+}
+.btn a:hover{
+	color: #OOO;
+}
+.btn a:link{
+	text-decoration: none;
+	
+}
+.content{
+	text-align: center;
+	margin-top: 12%;
+
+
+
+}
+.content h1{
+	font-size:6rem;
+	color: whitesmoke;
+
+}
+.content h3{
+	font-size: 3.5rem;
+	color: honeydew;
+}
+.About{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px auto;
+}
+.About h1{
+	font-size: 50px;
+	color: #000;
+	margin-bottom: 25px;
+	position: relative;
+}
+.About h1::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	display: block;
+	margin: 0 auto;
+	background-color: #4caf50;
+}
+.About h3{
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 25px;
+	position: relative;
+}
+.About p{
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 35px;
+}
+.head{
+	width:90%;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+.about{
+	display: flex ;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.about{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px auto;
+}
+.about-image{
+	flex: 1;
+	margin-right: 40px;
+	overflow: hidden;
+}
+.about-image k{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	transition: 0.5s ease;
+}
